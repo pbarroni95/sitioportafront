@@ -1,0 +1,46 @@
+h1 {
+    display: block;
+    padding: 18px;
+    flex-direction: column;
+    background-color: rgba(138, 135, 138, 0.8);
+    /*margin-top: 14px;*/
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+  }
+  
+  h2 {
+    padding: 20px;
+  }
+  
+  main {
+    background-color: #535353;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    row-gap: 15px;
+  }
+  
+  main a {
+    color: white;
+  }
+  
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: space-around;*/
+    justify-content: center;
+     
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+  }

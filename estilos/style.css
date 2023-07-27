@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Pulso, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  color: white;
+  background-color: rgba(138, 135, 138, 0.8);
+  /*margin: 5px;*/
+  padding: 20px;
+  /*padding: 10px;*/
+}
+
+header {
+  height: 55px;
+  background-color: black;
+  font-weight: bold;
+  padding: 0px 60px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h2 a:hover {
+  background-image: linear-gradient(to right, #0100EC, #ff00f2, #f15111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  transition: 0.5s;
+}
+
+header .menu a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+header .menu a:hover {
+  /*color: blueviolet;*/
+  background-image: linear-gradient(to right, #0100EC, #ff00f2, #f15111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h1 {
+  display: block;
+  padding: 18px;
+  flex-direction: column;
+  background-color: rgba(138, 135, 138, 0.8);
+  /*margin-top: 14px;*/
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  padding: 20px;
+}
+
+main {
+  background-color: #535353;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  row-gap: 15px;
+}
+
+main a {
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /*justify-content: space-around;*/
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px;
+}
+
+.footer {
+  padding: 5px;
+} 
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.boton-ingresar {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 7px 14px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+.boton-ingresar:hover {
+  /*background: rgb(0, 0, 0);*/
+  /*background-image: linear-gradient(to right, #0100EC,#ff00f2, #f15111);
+  /*color:rgb(43, 144, 226);*/
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-top: 15px;
+  transition: all 0.3s;
+  color: rgb(0, 0, 0);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 340px;
+  height: 160px;
+}
+
+input {
+  font-size: 16px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+textarea {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.form {
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.botones-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  /*justify-content: space-around;*/
+}
+
+.boton-ingresar {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 7px 14px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: all 0.4s;
+}
+
+.boton-ingresar:hover {
+  /*background: rgb(0, 0, 0);*/
+  /*background-image: linear-gradient(to right, #0100EC,#ff00f2, #f15111);
+  /*color:rgb(43, 144, 226);*/
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-top: 15px;
+  transition: all 0.3s;
+  color: rgb(0, 0, 0);
+}
+
+/*# sourceMappingURL=style.css.map */

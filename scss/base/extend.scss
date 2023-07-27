@@ -1,0 +1,25 @@
+%flex_centrado1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+%flex_centrado2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+section {
+    @extend %flex_centrado2;
+}
+
+div {
+    @extend %flex_centrado1;
+}

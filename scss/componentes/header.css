@@ -1,0 +1,47 @@
+header {
+  height: 55px;
+  background-color: black;
+  font-weight: bold;
+  padding: 0px 60px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h2 a:hover {
+  background-image: linear-gradient(to right, #0100EC, #ff00f2, #f15111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  transition: 0.5s;
+}
+
+header .menu a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+header .menu a:hover {
+  /*color: blueviolet;*/
+  background-image: linear-gradient(to right, #0100EC, #ff00f2, #f15111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+}/*# sourceMappingURL=header.css.map */
