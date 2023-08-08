@@ -1,1 +1,1 @@
-{"version":3,"sources":["botones.scss","botones.css"],"names":[],"mappings":"AAAA;EACI,qBAAA;EACA,qBAAA;EACA,yBAAA;EACA,iBAAA;EACA,oCAAA;EACA,mBAAA;EACA,gBAAA;EACA,oBAAA;ACCJ;;ADGE;EACE,4BAAA;EACA;6BAAA;EAEA,8BAAA;EACA,mBAAA;EACA,gBAAA;EACA,oBAAA;EACA,mBAAA;ACAJ","file":"botones.css"}
+{"version":3,"sources":["botones.scss","botones.css"],"names":[],"mappings":"AAAA;EACE,qBAAA;EACA,qBAAA;EACA,yBAAA;EACA,iBAAA;EACA,oCAAA;EACA,mBAAA;EACA,gBAAA;EACA,oBAAA;ACCF;;ADEA;EACE,8BAAA;EACA;6BAAA;EAEA,oCAAA;EACA,mBAAA;EACA,gBAAA;EACA,oBAAA;EACA,mBAAA;ACCF","file":"botones.css"}
